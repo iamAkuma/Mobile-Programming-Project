@@ -1,0 +1,16 @@
+<resources>
+    <string-array name="countries">
+        <item>Select One</item>
+        <item>Canada</item>
+        <item>Japan</item>
+        <item>South Korea</item>
+        <item>USA</item>
+        <item>Australia</item>
+        <!-- Add more countries as needed -->
+    </string-array>
+
+    <string name="app_name">Linking Data\n</string>
+    <string name="select_the_country_where_you_want_to_go">Select the country where you want to go:</string>
+    <string name="selected_country">Selected Country:</string>
+    <string name="show_selected_item">Show Selected Item</string>
+</resources>

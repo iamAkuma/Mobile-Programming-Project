@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="16dp">
+
+    <TextView
+            android:id="@+id/select_country_textview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/select_the_country_where_you_want_to_go"
+            android:textSize="18sp"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="8dp" />
+
+    <Spinner
+            android:id="@+id/spinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/select_country_textview"
+            android:entries="@array/countries" android:minHeight="48dp"/>
+
+    <TextView
+            android:id="@+id/selected_item_textview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/spinner"
+            android:layout_marginTop="16dp"
+            android:text="@string/selected_country"
+            android:textSize="18sp" />
+
+    <Button
+            android:id="@+id/show_selected_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/selected_item_textview"
+            android:text="@string/show_selected_item"
+            android:onClick="onShowSelectedClick"
+            android:layout_marginTop="16dp"/>
+
+</RelativeLayout>
