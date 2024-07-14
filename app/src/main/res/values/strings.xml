@@ -9,8 +9,21 @@
         <!-- Add more countries as needed -->
     </string-array>
 
-    <string name="app_name">Linking Data\n</string>
+    <string name="app_name">Fragment\n</string>
     <string name="select_the_country_where_you_want_to_go">Select the country where you want to go:</string>
     <string name="selected_country">Selected Country:</string>
     <string name="show_selected_item">Show Selected Item</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="this_ia_a_fragment_example">This ia a fragment example</string>
+    <string name="fragment_1">Fragment 1</string>
+    <string name="fragment_2">Fragment 2</string>
+    <string name="item_1">Item 1</string>
+    <string name="item_2">Item 2</string>
+    <string name="item_3">Item 3</string>
+    <string name="click">Click</string>
+    <string name="settings_page">Settings Page</string>
+    <string name="action_1">Action 1</string>
+    <string name="action_2">Action 2</string>
+    <string name="show_alert_dialog">Show Alert Dialog</string>
+    <string name="show_custom_dialog">Show Custom Dialog</string>
 </resources>
